@@ -1,0 +1,222 @@
+@font-face{
+    src: url("fonts/potsdamc.ttf");
+    font-family: "ABOBA";
+}
+
+@font-face{
+    src: url("fonts/ofont.ru_Vezitsa.ttf");
+    font-family: "ABOBA1";
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+header{
+	position: relative;
+	background: #8D8D7D;
+	height: 204px;
+	font-family: "ABOBA";
+}
+
+header h1{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 40px;
+	font-family: "ABOBA";
+}
+
+header h3{
+	position: absolute;
+	left: 50%;
+	top: 70%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 25px;
+	font-family: "ABOBA";
+}
+
+#logo{
+	height: 202px;
+	width: 262px;
+	position: absolute;
+	top: 1px;
+	left: 30px;
+}
+
+#logo img{
+	width: 100%;
+
+}
+
+ p{
+  font-size: 22px;
+ }
+
+
+/* менюшка */
+nav{
+	background: #AEAEAE;
+	height: 50px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    color: #fee;
+    text-decoration: none;
+    font-size: 27px;
+    margin: 0 18px;
+    line-height: 50px;
+    transition: 0.55s;
+}
+
+nav a:hover{
+	color: #828282;
+	font-size: 38px;
+}
+
+/* контент */
+#Razdel1{
+  background: #1339
+}
+
+#Razdel2{
+  background: #1336
+}
+
+#Razdel3{
+  background: #1334
+}
+
+#Razdel4{
+  background: #1332
+}
+
+#Razdel5{
+  background: #1331
+}
+
+#Razdel6{
+  background: #1330
+}
+
+
+section{
+	background: #d9d9d9;
+	min-height: 700px;
+	padding: 50px 80px;
+}
+
+section h1{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+section h3{
+	text-align: center;
+	font-size: 25px;
+}
+
+.img-l img{
+	width: 50%;
+	float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.img-l p, .img_right p{
+	text-align: justify;
+	font-size: 21px;
+	margin-bottom: 7px;
+	text-indent: 25px;
+}
+
+.clear{
+	clear: both;
+}
+
+.img-r img{
+	width: 50%;
+	float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.img-r p{
+	text-align: justify;
+	font-size: 21px;
+	margin-bottom: 7px;
+	text-indent: 25px;
+}
+
+/* галерея флагов*/
+#gallery{
+	text-align: center;
+}
+
+#gallery h1{
+	text-align: center;
+	font-family: "ABOBA";	
+}
+
+.gallery{
+	background: #444;
+	width: 30%;
+	padding: 20px;
+	border-radius: 20px;
+	margin: 0 10px 30px;
+	display: inline-block;
+}
+
+.gallery div{
+	width: 100%;
+	height: 200px;
+}
+
+.gallery img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain; 
+}
+
+.gallery p{
+	text-align: center;
+	color: #fff;
+	margin-top: 10px;
+	font-size: 19px;
+	font-family: "ABOBA1";
+}
+
+
+.parallax{
+	height: 800px !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#parallax1{
+	background-image: url("bfT9PWFBTlccA21l5iTr1_5OA1ksbM81uCv2sgxX6bRI06t7ob5qvzDAnAuT-dW5uv0UQNv83EpOi18gap70lDk38rYt2oWZ0xxhbG_ubNGuTINaLCmLP2S.webp");
+}
+
+#parallax2{
+	background-image: url("bfT9PWFBTlccA21l5iTr1_5OA1ksbM81uCv2sgxX6bRI06t7ob5qvzDAnAuT-dW5uv0UQNv83EpOi18gap70lDk38rYt2oWZ0xxhbG_ubNGuTINaLCmLP2S.webp");
+}
+
+.IDEOLOGY img{
+	width: 90px;
+	float: right;
+    margin-left: 2px;
+    margin-bottom: 1px;
+}
